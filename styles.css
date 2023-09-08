@@ -1,0 +1,36 @@
+ul.navbar {
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+ul.navbar li {
+    float: right;
+}
+
+ul.navbar li:first-child {
+    float: left;
+}
+
+ul.navbar li a {
+    font-weight: bold;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: black;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 10px;
+    height: auto;
+}
+
+.tamaño-logo {
+    width: 50px;
+}
